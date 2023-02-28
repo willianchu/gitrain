@@ -1,9 +1,13 @@
 # gitrain
 
 ## Super basic stuff for beginners
+'''bash	
 git --version
+
 git init
+'''
 
-// this is the name you want to show up on your commits
-git config user.name "test"
-
+## This is the name you want to show up on your commits
+'''bash
+git config user.name "Johnny test"
+'''	
