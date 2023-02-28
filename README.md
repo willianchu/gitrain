@@ -1,7 +1,7 @@
 # gitrain
 
 ## Super basic stuff for beginners
-'''bash	
+'''
 git --version
 
 git init
