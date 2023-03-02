@@ -82,4 +82,37 @@ git remote add origin https://abc.com/abc.git
 git pull origin master
 ```
 
+## Get all the change history of the origin for this branch
+```bash
+git fetch origin
+```
+## Merge the current branch with the branch master, on origin
+```bash	
+git merge origin/master
+```
+or simpler
+```bash
+git pull origin master
+```
+
+## Update the current branch from its origin using a single command:
+```bash
+git pull origin
+```
+
+## push the current branch to its default remote origin
+```bash
+git push origin
+```
+
+## List all local and remote branches of the current Git.
+```bash
+git branch -a
+```
+## List only remote branches of the current Git.
+```bash
+git branch -r
+```
+
+
 
