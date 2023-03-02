@@ -65,4 +65,21 @@ git checkout -b hello-world-images
 git merge --abort
 ```
 
+## remove the hello-you branch from the local repository
+```bash
+git branch -d hello-you
+```
+
+## Add a remote repository as an origin
+```bash
+git remote add origin https://abc.com/abc.git
+```
+
+> pull = fetch + merge
+
+## Pull the latest changes from the remote repository
+```bash
+git pull origin master
+```
+
 
