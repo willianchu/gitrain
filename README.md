@@ -24,3 +24,45 @@ git remote add origin https://abc.com/abc.git
 ```bash
 git config user.name "Johnny test"
 ```	
+
+## Stage all new, modified, and deleted files. Use the shorthand command
+```bash
+git add -A
+```
+
+## Check the compact version of the status for repository
+```bash
+git status -s
+git status --short
+```
+
+## Commit the updated files directly, skipping the staging environment:
+```bash
+git commit -a -m "Commit message"
+```
+> But only works for files that are already tracked by Git. New files must be added first.
+
+## Show all git possible commands in command line:
+```bash
+git help --all
+```
+
+## Create a new branch called hello-world-images
+```bash
+git branch hello-world-images
+```
+## List the existing branches
+```bash
+git branch
+```
+
+## Create and switch to a new branch called hello-world-images
+```bash
+git checkout -b hello-world-images
+```
+
+```bash	
+git merge --abort
+```
+
+
