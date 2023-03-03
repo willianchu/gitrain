@@ -124,6 +124,33 @@ git remote rename origin upstream
 git remote show origin
 ```
 
+# Git ignore
+
+## In .gitignore add a line to ignore all .temp files
+```bash
+*.temp
+```
+## In .gitignore add a line to ignore all files in any directory named temp:
+```bash
+temp/*
+```
+## In .gitignore, ignore all .log files, except main.log
+```bash
+*.log
+!main.log
+```
+## Add a new remote named ssh-origin connecting to x/y.git on abc.com using SSH
+```bash
+git remote add ssh-origin git@abc.com:x/y.git
+```
+## Replace the remote URL for origin with x/y.git on abc.com using SSH
+```bash
+git remote set-url origin git@abc.com:x/y.git
+```
+
+
+
+
 
 
 
