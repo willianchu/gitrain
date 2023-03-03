@@ -113,6 +113,18 @@ git branch -a
 ```bash
 git branch -r
 ```
+## Rename the origin remote to upstream
+```bash
+git remote rename origin upstream
+```
+> this will rename the origin remote to upstream
+
+## show the name of the origin remote
+```bash
+git remote show origin
+```
+
+
 
 
 
