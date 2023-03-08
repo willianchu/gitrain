@@ -45,6 +45,7 @@ git commit -a -m "Commit message"
 ## Show all git possible commands in command line:
 ```bash
 git help --all
+git status --help
 ```
 
 ## Create a new branch called hello-world-images
