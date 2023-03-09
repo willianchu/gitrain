@@ -16,4 +16,19 @@ git merge --abort
 ```bash
 git rebase -i HEAD~3
 ```
+# Moving Through Git
+
+## De-attach HEAD
+```bash
+git checkout <commit>
+```
+## Reattach HEAD
+```bash
+git checkout <branch>
+```
+
+## Relative References
+```bash
+git checkout HEAD~2
+```
 
