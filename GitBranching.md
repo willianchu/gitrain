@@ -106,6 +106,11 @@ git rebase -i HEAD~3
 git rebase -i HEAD~3
 ```
 
+## --amend
+```bash
+git commit --amend
+```
+> this will open an editor with the last commit message, you can change the message and will star stacking from the last commit to the first one.
 
 
 
