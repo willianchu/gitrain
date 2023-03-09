@@ -82,7 +82,7 @@ git revert <commit>
 ```
 > this will create a new commit that undoes the changes in the commit (leaving the changes in the index and working directory) - maintain the history, good for sharing
 
-# Moving Work Around
+# Moving Work Around (Advance 20% of the time)
 
 ## cherry-pick
 ```bash
@@ -90,6 +90,22 @@ git cherry-pick <commit-1> <commit-2>
 ```
 
 > this will copy each selected commit and paste them on top of the current branch.
+
+# Intercative Rebase -i
+
+## rebase
+```bash
+git rebase -i HEAD~3
+```
+> this will open an editor with the last 3 commits, you can change the action for each commit and will star stacking from the last commit to the first one.
+
+# Juggling Commits
+
+## rebase
+```bash
+git rebase -i HEAD~3
+```
+
 
 
 
