@@ -149,6 +149,11 @@ git remote add ssh-origin git@abc.com:x/y.git
 git remote set-url origin git@abc.com:x/y.git
 ```
 
+## Show the log of the repository, showing just 1 line per commit
+```bash
+git log --oneline
+```
+
 
 
 
