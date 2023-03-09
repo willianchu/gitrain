@@ -154,6 +154,32 @@ git remote set-url origin git@abc.com:x/y.git
 git log --oneline
 ```
 
+## revert the latest commit
+```bash
+git revert HEAD
+```
+## revert the latest commit, skipping the commit message editor
+```bash
+git revert HEAD --no-edit
+```
+
+## revert the two last commits
+```bash
+git revert HEAD~1 HEAD
+```
+## revert the THREE last commits
+```bash
+git revert HEAD~2 HEAD~1 HEAD
+```
+## reset to the commit with the hash abc1234
+```bash
+git reset abc1234
+```
+## Amend the previous commit to with the message "Updated index"
+```bash
+git commit --amend -m "Updated index"
+```
+> amend is used to change the last commit message
 
 
 
