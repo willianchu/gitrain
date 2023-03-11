@@ -255,4 +255,30 @@ git stash
     > this will fetch the branch from the remote repository
     > this will merge the branch with the current branch
 
+## Git Pull
+  
+  ```bash
+  git pull origin <branch>
+  ```
+  > this will fetch the branch from the remote repository
+  > this will merge the branch with the current branch
+
+# Git rebase origin/<branch>
+
+  ```bash
+  git rebase origin/<branch>
+  ```
+  > this will fetch the branch from the remote repository
+  > this will rebase the current branch with the remote branch
+
+# Git merge origin/<branch>
+
+  ```bash
+  git merge origin/<branch>
+  ```
+  > this will fetch the branch from the remote repository
+  > this will merge the branch with the current branch
+  
+
+
 
