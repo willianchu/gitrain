@@ -255,13 +255,16 @@ git stash
     > this will fetch the branch from the remote repository
     > this will merge the branch with the current branch
 
-## Git Pull
+## Git Pull  (remote > local)
   
+  > fetch + merge = pull
+
   ```bash
   git pull origin <branch>
   ```
   > this will fetch the branch from the remote repository
   > this will merge the branch with the current branch
+
 
 # Git rebase origin/<branch>
 
@@ -278,7 +281,24 @@ git stash
   ```
   > this will fetch the branch from the remote repository
   > this will merge the branch with the current branch
-  
+
+
+## Solution
+
+```bash
+git clone <url>
+git faketeamwork 2
+git commit
+git pull
+```	
+
+# Git Push (local > remote)
+
+```bash
+git push origin <branch>
+```
+> this will push the branch to the remote repository
+
 
 
 
