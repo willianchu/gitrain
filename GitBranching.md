@@ -299,6 +299,14 @@ git push origin <branch>
 ```
 > this will push the branch to the remote repository
 
+## settting upstream branch
+
+```bash
+git push --set-upstream origin <branch>
+```
+> this will push the branch to the remote repository and set the upstream branch
+
+
 
 
 
