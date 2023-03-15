@@ -306,6 +306,68 @@ git push --set-upstream origin <branch>
 ```
 > this will push the branch to the remote repository and set the upstream branch
 
+# Avoiding Conflicts
+
+## git pull --rebase
+
+```bash
+git pull --rebase origin <branch>
+```
+> this will fetch the branch from the remote repository
+> this will rebase the current branch with the remote branch
+
+```bash	
+git fetch
+git rebase origin/<branch>
+git push
+```
+> this will fetch the branch from the remote repository
+> this will rebase the current branch with the remote branch
+> this will push the branch to the remote repository
+> will be a clean and linear history
+
+## merge to avoid conflicts
+
+```bash
+git fetch
+git merge origin/<branch>
+git push
+```
+> this will fetch the branch from the remote repository
+> this will merge the branch with the current branch
+> this will push the branch to the remote repository
+> will maintain the history
+
+### Difference between rebase and merge
+> rebase will change the history of the commits, merge will not change the history of the commits
+
+> git pull --rebase is the same as git fetch + git rebase
+
+```bash
+git pull --rebase origin <branch>
+git push
+```
+> this will fetch the branch from the remote repository
+
+### --rebase
+```bash
+git pull --rebase
+git push
+```
+> this will fetch the branch from the remote repository
+> this will rebase the current branch with the remote branch
+> this will push the branch to the remote repository
+> Same thing but shorter
+
+### pull approach
+```bash
+git pull
+git push
+```
+> this will fetch the branch from the remote repository
+> this will merge the branch with the current branch
+> this will push the branch to the remote repository
+> Same thing but shorter
 
 
 
