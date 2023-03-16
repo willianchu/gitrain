@@ -369,6 +369,41 @@ git push
 > this will push the branch to the remote repository
 > Same thing but shorter
 
+### Example
+```bash
+git clone
+git fakeTeamwork
+git commit
+git pull --rebase
+git push
+```
+
+# Remote Rejected
+
+## Why are you rejected?
+> if you try to push and making a pull request, but accidentally you are pushing to the wrong branch, you will get a rejected message.
+> You be stuck in a loop, because you are trying to push to the wrong branch, but you are trying to pull from the wrong branch.
+
+### Exercice
+```bash
+git reset --hard o/main
+git checkout -b feature C2
+git push origin feature
+```
+
+> git reset --hard o/main	# this will reset the current branch to the main branch
+> git checkout -b feature C2	# this will create a new branch called feature and move the HEAD pointer to the commit C2
+> git push origin feature	# this will push the branch to the remote repository
+
+### Solution 2
+```bash
+git branch -f main C1
+git checkout -b feature C2
+git push origin feature
+```
+
+
+
 
 
 
