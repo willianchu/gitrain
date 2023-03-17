@@ -402,7 +402,16 @@ git checkout -b feature C2
 git push origin feature
 ```
 
+# Pushing several branches in order
 
+```bash
+git fetch
+git rebase origin/main branch1
+git rebase branch1 branch2
+git rebase branch2 branch3
+git rebase branch3 main
+git push
+```
 
 
 
