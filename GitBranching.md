@@ -412,6 +412,11 @@ git rebase branch2 branch3
 git rebase branch3 main
 git push
 ```
+> get the branches from the remote repository
+> rebase the branches in order
+> close the rebases with the main branch
+> push the branches to the remote repository
+
 
 
 
