@@ -417,6 +417,28 @@ git push
 > close the rebases with the main branch
 > push the branches to the remote repository
 
+# rebase vs merge
+
+## rebase	
+
+### Pros
+> cleaner history
+> linear history
+
+### Cons
+> modifying the history of the commits
+
+## Pushing several branches in order (merge version)
+
+```bash
+git checkout main
+git pull
+git merge branch1
+git merge branch2
+git merge branch3
+git push
+```
+
 
 
 
