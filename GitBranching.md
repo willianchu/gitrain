@@ -484,7 +484,24 @@ git branch -u origin/main ImNotTheMainBranch
 git branch -u origin/main
 ```
 
+### Example
 
+```bash 
+git branch -u origin/main ImNotTheMainBranch
+git commit
+git push
+```
+> remote tracking branch
 
+### Following a remote branch
+
+```bash
+git checkout -b ImNotTheMainBranch origin/main
+git commit
+git pull --rebase
+git push
+```
+
+> this will create a new branch called ImNotTheMainBranch and move the HEAD pointer to the commit o/main
 
 
