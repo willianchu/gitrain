@@ -473,9 +473,18 @@ git push
 
 # Alternative way to create a branch pointing to the origin/main branch
 
-```bash
+> Using git branch -u
 
 ```bash
+git branch -u origin/main ImNotTheMainBranch
+```
+ ### If ImNotTheMainBranch is the current branch, you may omit the branch name
+
+```bash
+git branch -u origin/main
+```
+
+
 
 
 
