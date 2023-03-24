@@ -439,7 +439,43 @@ git merge branch3
 git push
 ```
 
+# main & origin/main
 
+> main is the local branch
+> origin/main is the remote branch
+
+## setting a random branch as the main branch
+
+```bash
+git checkout -b ImNotTheMainBranch origin/main
+git pull
+```
+
+> this will create a new branch called ImNotTheMainBranch and move the HEAD pointer to the commit o/main
+
+### updating a branch with the main branch
+
+```bash
+git checkout -b ImNotTheMainBranch origin/main
+git pull
+```
+
+> this will create a new branch called ImNotTheMainBranch and move the HEAD pointer to the commit o/main
+
+```bash	
+git checkout -b ImNotTheMainBranch origin/main
+git commit
+git push
+```	
+
+> this will create a new branch called ImNotTheMainBranch and move the HEAD pointer to the commit o/main
+
+
+# Alternative way to create a branch pointing to the origin/main branch
+
+```bash
+
+```bash
 
 
 
