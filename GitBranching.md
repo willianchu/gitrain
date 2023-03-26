@@ -520,3 +520,25 @@ Example
 git checkout C0
 git push origin main
 ```
+
+## Specify different local and remote branches
+
+```bash
+git push origin <local_branch>:<remote_branch>
+```
+
+Example
+
+```bash
+git checkout C0
+git push origin main:main
+```
+> colon refspec syntax - means push the local branch to the remote branch
+
+'''bash
+git push origin foo^:main
+'''
+
+> this will push one commit before the current branch to the main branch
+
+
