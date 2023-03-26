@@ -505,3 +505,12 @@ git push
 > this will create a new branch called ImNotTheMainBranch and move the HEAD pointer to the commit o/main
 
 
+# Push Parameters
+
+> git push origin <branch>
+
+```bash
+git push origin main
+```
+> it ignores the local branch and pushes the remote branch
+
