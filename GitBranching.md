@@ -514,3 +514,9 @@ git push origin main
 ```
 > it ignores the local branch and pushes the remote branch
 
+Example
+
+```bash
+git checkout C0
+git push origin main
+```
